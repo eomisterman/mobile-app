@@ -2,12 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Grocery List Mobile App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <h1>Grocery List</h1>
+    <input type="text" id="item-input" placeholder="Add to list..." />
+    <button id="add-item-btn">+</button>
+    <ul id="grocery-list"></ul>
+    <script src="functions.js" type="module"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
